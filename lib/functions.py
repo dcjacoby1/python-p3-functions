@@ -1,16 +1,20 @@
 #!/usr/bin/env python3
 
 def greet_programmer():
-    pass
-
+    print("Hello, programmer!")
+    
+#arg w no default must contain arg when called
 def greet(name):
-    pass
+    print(f"Hello, {name}!")
 
+#this argument has default if arg not filled in
 def greet_with_default(name="programmer"):
-    pass
+    print(f"Hello, {name}!")
 
+#gives back value for added numbers
 def add(num1, num2):
-    pass
+    return num1 + num2
 
+#returns value of num / 2 
 def halve(number):
-    pass
+    return number / 2
